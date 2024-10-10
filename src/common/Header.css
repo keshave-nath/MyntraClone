@@ -1,0 +1,333 @@
+.main{
+    width: 100%;
+    display: flex;
+    position:sticky;
+    z-index: 1;
+    top: 0px;
+    /* font-size: 14px; */
+    cursor: pointer;
+    background-color: white;
+    /* box-shadow: 0 0 20px 5px #ccc; */
+    /* z-index: 2;    */
+}
+/* left */
+.left{
+    width: 50%;
+    display: flex;
+}
+.left .logo{
+    width: 150px;
+}
+.left .logo img{
+    width: 100%;
+}
+.left .menus{
+    display: flex;
+    align-items: center;
+}
+.left .menu{
+    /* margin: 0px; */
+    padding: 0px;
+    gap: 35px;
+    font-weight: bold;
+    display: flex;
+    color: #282c3f;
+}
+.left .menu sup{
+    color:#ff3f6c;
+}
+.underline{
+    position: relative;
+    width: 100%;
+}
+.underline1{
+    
+    position: absolute;
+    /* top:0px;
+    right:0px; */
+    width: 100%;
+    margin-top: 32px;
+    padding: 2.5px;
+    visibility: hidden;
+   /* transition: 1s; */
+    background-color: #ff3f6c;
+    padding-top: 1px;
+}
+.menu li:hover .underline1{
+    visibility: visible;
+    /* top:0px;
+    left: 0px; */
+    width: 100%;
+}
+
+.underline2{
+    
+    position: absolute;
+    /* top:0px;
+    right:0px; */
+    width: 100%;
+    margin-top: 32px;
+    padding: 2.5px;
+    visibility: hidden;
+   /* transition: 1s; */
+    background-color: #fb56c1;
+    padding-top: 1px;
+}
+.menu li:hover .underline2{
+    visibility: visible;
+    /* top:0px;
+    left: 0px; */
+    width: 100%;
+}
+
+.underline3{
+    
+    position: absolute;
+    /* top:0px;
+    right:0px; */
+    width: 100%;
+    margin-top: 32px;
+    padding: 2.5px;
+    visibility: hidden;
+   /* transition: 1s; */
+    background-color: #f26a10;
+    padding-top: 1px;
+}
+.menu li:hover .underline3{
+    visibility: visible;
+    /* top:0px;
+    left: 0px; */
+    width: 100%;
+}
+
+.underline4{
+    
+    position: absolute;
+    /* top:0px;
+    right:0px; */
+    width: 100%;
+    margin-top: 32px;
+    padding: 2.5px;
+    visibility: hidden;
+   /* transition: 1s; */
+    background-color: #f2c210;
+    padding-top: 1px;
+}
+.menu li:hover .underline4{
+    visibility: visible;
+    /* top:0px;
+    left: 0px; */
+    width: 100%;
+}
+
+.underline5{
+    
+    position: absolute;
+    /* top:0px;
+    right:0px; */
+    width: 100%;
+    margin-top: 32px;
+    padding: 2.5px;
+    visibility: hidden;
+   /* transition: 1s; */
+    background-color: #0db7af;
+    padding-top: 1px;
+}
+.menu li:hover .underline5{
+    visibility: visible;
+    /* top:0px;
+    left: 0px; */
+    width: 100%;
+}
+
+.underline6{
+    
+    position: absolute;
+    /* top:0px;
+    right:0px; */
+    width: 100%;
+    margin-top: 32px;
+    padding: 2.5px;
+    visibility: hidden;
+    /* transition: 1s; */
+    background-color: #ff3f6c;
+    padding-top: 1px;
+}
+.menu li:hover .underline6{
+    visibility: visible;
+    /* top:0px;
+    left: 0px; */
+    width: 100%;
+}
+.back{
+    width: 100%;
+    height: 90vh;
+    background-color: rgba(0, 0, 0, .3);
+    /* z-index: 0; */
+    /* pointer-events: none; */
+    visibility: hidden; 
+    opacity: 0;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    transition: 1s;  
+}
+.menu li:hover .back{
+    visibility: visible;
+    opacity: 1;
+}
+.megamenu{
+    /* z-index: 1; */
+    width: 1170px;
+    background-color: white;
+    display: flex;
+    gap:5%;
+    padding-left: 35px;
+    padding-bottom: 20px;  
+    transition: 2s;  
+    position: absolute;
+    top: 1px;
+    left: 120px;
+    visibility: hidden; 
+    opacity: 0;
+    transition: 1s !important;
+}
+.menu li:hover .megamenu {
+    visibility: visible !important;
+    opacity: 1 !important;
+    /* background-color: skyblue; */
+}
+.megamenu:hover .megamenu {
+    visibility: visible !important;
+    opacity: 1 !important;
+    /* background-color: skyblue; */
+}
+
+.megaop{
+    width: 15%;
+    text-align: left;
+    /* border: 1px solid white; */
+}
+.un{
+    border-bottom: 1px solid #ccc !important;
+    padding:15px 0px !important;
+    margin-bottom: 10px !important;
+}
+.megaop h6{
+    color: #ff3f6c;
+}
+.megaop1 h6{
+    color: #fb56c1;
+}
+.megaop2 h6{
+    color: #f26a10;
+}
+.megaop3 h6{
+    color: #f2c210;
+}
+.megaop4 h6{
+    color: #0db7af;
+}
+.ull{
+    margin: 0px;
+    padding: 0%;
+    /* font-size: 14px; */
+    line-height: 25px;
+    font-weight: normal;
+}
+.ull li:hover{
+    font-weight: bold;
+} 
+
+.megamenu1{
+    z-index: 1;
+    width: 500px;
+    background-color: white;
+    display: flex;
+    gap:5%;
+    padding-left: 35px;
+    padding-bottom: 20px;  
+    transition: 1s;  
+    position: absolute;
+    top: 1px;
+    left: 450px;
+    visibility: hidden; 
+    opacity: 0;
+}
+.menu li:hover .megamenu1{
+    visibility: visible;
+    opacity: 1;
+}
+
+.megaopp{
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    line-height: 40px;
+}
+.banner{
+    width: 100%;
+    padding: 10px 20px;
+    text-align: center;
+}
+.banner img{
+    width: 100%;
+}
+
+/* right */
+
+.right{
+    width: 50%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* font-size: 14px; */
+   
+}
+.right .search{
+    width: 60%;
+    display: flex;
+    margin-left: 10%;
+}
+.right .search span{
+    /* font-size: 20px; */
+    /* margin-right: 2px; */
+    padding: 2px 10px;
+    background-color: #f5f5f6;
+}
+.right .search input{
+    width: 100%;
+    padding: 2px 10px;
+    background-color: #f5f5f6;
+    border: none;
+}
+.right .icons{
+    width: 30%;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.underline{
+    position: relative;
+    width: 100%;
+}
+.underline7{
+    
+    position: absolute;
+    /* top:0px;
+    right:0px; */
+    width: 100%;
+    margin-top: 0px;
+    padding: 3px;
+    visibility: hidden;
+    /* transition: 1s; */
+    background-color: #ff3f6c;
+    padding-top: 1px;
+}
+.icons div:hover .underline7{
+    visibility: visible;
+    /* top:0px;
+    left: 0px; */
+    width: 100%;
+}

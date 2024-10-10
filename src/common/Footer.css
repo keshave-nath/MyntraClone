@@ -1,0 +1,60 @@
+.footer{
+    max-width: 1600px;
+    margin: 0px auto;
+    margin-top: 100px;
+    font-size: 14px;
+    display: flex;
+    gap:50px;
+}
+.footer ul{
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+.footer li{
+    color: #696b79;
+    line-height: 25px;
+    
+}
+.listt{
+    width: 20%;
+}
+.flist{
+    width: 100%;
+    margin: 10px 0;
+    
+}
+
+.listr{
+    width: 30%;
+}
+.ful{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    /* border: 1px solid ; */
+    padding: 0%;
+}
+
+.ful li{
+    width: 48%;
+    margin: 20px 0;
+    /* border: 1px solid ; */
+}
+.ful img{
+    width: 100%;
+    height: 100%;
+}
+.footer .flist .ficons{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    gap:10px;
+}
+.ficons li{
+    width: 15px;
+}
+.ficons img{
+    width: 100%;
+}
